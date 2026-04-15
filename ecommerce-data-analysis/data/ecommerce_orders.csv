@@ -1,0 +1,15 @@
+order_date,product,quantity,price,country
+2024-01-01,Apple,2,1.5,Portugal
+2024-01-01,Banana,5,0.8,Spain
+2024-01-02,TV,1,300,Portugal
+2024-01-02,Mouse,2,20,France
+2024-01-03,Keyboard,1,25,Spain
+2024-01-03,Apple,3,1.5,Portugal
+2024-01-04,Laptop,1,900,France
+2024-01-04,Headphones,2,50,Spain
+2024-01-05,Monitor,1,200,Portugal
+2024-01-05,Banana,10,0.8,Spain
+2024-01-06,Mouse,1,20,France
+2024-01-06,TV,2,300,Portugal
+2024-01-07,Keyboard,1,25,Spain
+2024-01-07,Apple,4,1.5,Portugal
