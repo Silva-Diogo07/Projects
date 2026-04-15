@@ -1,0 +1,10 @@
+Date,Product,Category,Duration,Price
+2024-01-01,Apple,Food,45,10
+2024-01-01,Apple,Food,45,10
+2024-01-02,Banana,Food,200,5
+invalid_date,Orange,Food,30,8
+2024-01-03,TV,Tech,90,300
+2024-01-03,TV,Tech,90,300
+2024-01-04,Laptop,Tech,,1000
+2024-01-05,Mouse,Tech,60,20
+2024-01-05,Keyboard,Tech,150,25
