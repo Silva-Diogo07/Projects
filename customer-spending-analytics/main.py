@@ -27,4 +27,12 @@ top_value = total_by_customer.max()
 # filters by customer_id , picks the column 'country' and picks the first value
 top_country = df[df["customer_id"] == top_customer]["country"].iloc[0]
 
-print(f"Top customer: {top_customer}\nTotal spent: {top_value:,.2f}€\nCustomer country: {top_country}")
+# sum the total for each country
+total_by_country = df.groupby("country")["total"].sum()
+total_by_country.index.name = None
+total_by_country_formatted = total_by_country.apply(lambda x: f"{x:,.2f}€")
+
+print(f"Top customer id: {top_customer}\nTotal spent: {top_value:,.2f}€\nCustomer country: {top_country}")
+
+print("\nTotal by country:")
+print(total_by_country_formatted)
