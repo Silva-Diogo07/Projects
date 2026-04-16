@@ -11,15 +11,20 @@ df["total"] = df["quantity"] * df["price"]
 # sort by country and price
 df = df.sort_values(["country", "order_date"])
 
-# group and print
+# orders the data by country
+# for each country shows it's data
 for country, data in df.groupby("country"):
-    print(f"\nCountry: {country}")
+    print(f"\nCountry: {country}") 
     print(data.to_string(index=False))
 
-# find the customer who spent the most and his country
+# orders by client
+# sum all expenses for each customer
 total_by_customer = df.groupby("customer_id")["total"].sum()
+# finds the client that spent the most
 top_customer = total_by_customer.idxmax()
+# returns the most spent value
 top_value = total_by_customer.max()
+# filters by customer_id , picks the column 'country' and picks the first value
 top_country = df[df["customer_id"] == top_customer]["country"].iloc[0]
 
 print(f"Top customer: {top_customer}\nTotal spent: {top_value:,.2f}€\nCustomer country: {top_country}")
