@@ -6,15 +6,13 @@ dataCSV_path = script_dir / "data" / "customer_order.csv"
 
 df = pd.read_csv(dataCSV_path)
 
-# create a new 'total' column
+# create total column
 df["total"] = df["quantity"] * df["price"]
 
-# order by country and price
-df_sorted = df.sort_values(["country", "price"], ascending=[True, True])
+# sort by country and price
+df = df.sort_values(["country", "order_date"])
 
-print(df_sorted)
-
-# clean e structure the dataset for analyse
-# create a new 'total' column
-# identify the client that spends the most and his country
-# number of purchases by each client
+# group and print
+for country, data in df.groupby("country"):
+    print(f"\nCountry: {country}")
+    print(data.to_string(index=False))
