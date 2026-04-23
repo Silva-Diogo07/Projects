@@ -4,30 +4,52 @@ from pathlib import Path
 
 def get_extreme_by_group(df, group_col, target_col, func):
     """
-    Return rows with extreme values (min or max) for a given column within each group.
+    Returns rows with the minimum or maximum value of a column within each group.
 
-    Parameters:
-        df (DataFrame): Input dataset
-        group_col (str): Column to group by (e.g., 'country')
-        target_col (str): Column to evaluate (e.g., 'age', 'total_spent')
-        func (str): Function name ('idxmin' or 'idxmax')
-
-    Returns:
-        DataFrame: Rows corresponding to the extreme values per group
+    Example:
+        - Youngest customer per country
+        - Highest spender per country
     """
     idx = getattr(df.groupby(group_col)[target_col], func)()
     return df.loc[idx]
 
 
-# Resolve path to CSV file relative to script location
+def print_customers(df, title, show_spending=False):
+    """
+    Prints customer information in a readable format.
+
+    Parameters:
+        df (DataFrame): Data to print
+        title (str): Section title
+        show_spending (bool): If True, shows purchases and total spent.
+    """
+    print(f"\n{title}")
+
+    for row in df.itertuples():
+
+        # Basic output (e.g. age-based analysis)
+        if not show_spending:
+            print(f"{row.country} → {row.customer_id} | Age {row.age}")
+
+        # Detailed output (e.g. spending analysis)
+        else:
+            print(
+                f"{row.country} → {row.customer_id} | "
+                f"{row.purchases} purchases | {row.total_spent}£"
+            )
+
+
+# -----------------------------
+# Load dataset
+# -----------------------------
 script_dir = Path(__file__).parent
 dataCSV_path = script_dir / "data" / "retail_customer_data.csv"
 
-# Load dataset
 df = pd.read_csv(dataCSV_path, encoding="utf-8")
 
+
 # -----------------------------
-# Preview: first 5 customers per country (sorted)
+# Preview data: top 5 customers per country
 # -----------------------------
 df_top5 = (
     df.sort_values(by=["country", "customer_id"])
@@ -38,44 +60,54 @@ df_top5 = (
 print("Top 5 customers per country:")
 print(df_top5)
 
-# -----------------------------
-# Analytical queries (use full dataset, not truncated one)
-# -----------------------------
-
-# Youngest customers per country
-youngest_customers = get_extreme_by_group(df, "country", "age", "idxmin")
-
-# Oldest customers per country
-oldest_customers = get_extreme_by_group(df, "country", "age", "idxmax")
-
-# Customers who spent the least per country
-least_spent_customers = get_extreme_by_group(df, "country", "total_spent", "idxmin")
-
-# Customers who spent the most per country
-top_spent_customers = get_extreme_by_group(df, "country", "total_spent", "idxmax")
 
 # -----------------------------
-# Output results
+# Identify extreme values per country
+# -----------------------------
+youngest = get_extreme_by_group(df, "country", "age", "idxmin")
+oldest = get_extreme_by_group(df, "country", "age", "idxmax")
+
+least_spent = get_extreme_by_group(df, "country", "total_spent", "idxmin")
+most_spent = get_extreme_by_group(df, "country", "total_spent", "idxmax")
+
+
+# -----------------------------
+# Display results
+# -----------------------------
+print_customers(youngest, "Youngest customers by country")
+print_customers(oldest, "Oldest customers by country")
+
+print_customers(
+    least_spent,
+    "Customers with lowest spending by country",
+    show_spending=True
+)
+
+print_customers(
+    most_spent,
+    "Customers with highest spending by country",
+    show_spending=True
+)
+
+
+# -----------------------------
+# Basic business insights
 # -----------------------------
 
-print("\nYoungest customers by country:")
-for row in youngest_customers.itertuples():
-    print(f"From {row.country}: Customer {row.customer_id}, Age {row.age}")
+# Average revenue per country
+print("\nAverage spending per country:")
+print(df.groupby("country")["total_spent"].mean().sort_values(ascending=False))
 
-print("\nOldest customers by country:")
-for row in oldest_customers.itertuples():
-    print(f"From {row.country}: Customer {row.customer_id}, Age {row.age}")
+# Total revenue per marketing channel
+print("\nRevenue by acquisition channel:")
+print(df.groupby("acquisition_channel")["total_spent"].sum().sort_values(ascending=False))
 
-print("\nCustomers who spent the least:")
-for row in least_spent_customers.itertuples():
-    print(
-        f"From {row.country}: Customer {row.customer_id}, "
-        f"{row.purchases} purchases, Total {row.total_spent}£"
-    )
+# Customer activity distribution (active vs inactive)
+print("\nCustomer activity distribution:")
+print(df["is_active"].value_counts())
 
-print("\nCustomers who spent the most:")
-for row in top_spent_customers.itertuples():
-    print(
-        f"From {row.country}: Customer {row.customer_id}, "
-        f"{row.purchases} purchases, Total {row.total_spent}£"
-    )
+# Conversion rate (purchases per product views)
+df["conversion_rate"] = df["purchases"] / df["product_views"]
+
+print("\nAverage conversion rate per country:")
+print(df.groupby("country")["conversion_rate"].mean().sort_values(ascending=False))
