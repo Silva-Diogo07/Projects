@@ -1,0 +1,361 @@
+order_id,date,product,category,country,quantity,price,revenue,channel
+DEC_1,2024-12-24,Phone Case,Electronics,Italy,2,29.25,58.5,Google Ads
+DEC_2,2024-12-8,Shoes,Fashion,Portugal,3,70.65,211.95,TikTok
+DEC_3,2024-12-24,Shoes,Fashion,Germany,2,88.32,176.64,Google Ads
+DEC_4,2024-12-5,Shoes,Fashion,Portugal,3,42.2,126.6,TikTok
+DEC_5,2024-12-7,Headphones,Electronics,France,1,152.57,152.57,TikTok
+DEC_6,2024-12-23,Bag,Accessories,Germany,1,92.77,92.77,Organic
+DEC_7,2024-12-16,T-Shirt,Fashion,Portugal,2,18.43,36.86,Email
+DEC_8,2024-12-27,Bag,Accessories,Italy,1,34.34,34.34,Organic
+DEC_9,2024-12-10,Watch,Accessories,Germany,3,119.14,357.42,Instagram
+DEC_10,2024-12-21,Watch,Accessories,Portugal,1,261.38,261.38,Organic
+DEC_11,2024-12-11,Headphones,Electronics,Italy,2,80.37,160.74,Email
+DEC_12,2024-12-9,Headphones,Electronics,Spain,1,173.74,173.74,Google Ads
+DEC_13,2024-12-20,Shoes,Fashion,Italy,1,109.41,109.41,Instagram
+DEC_14,2024-12-3,Headphones,Electronics,Germany,2,76.64,153.28,Google Ads
+DEC_15,2024-12-13,Phone Case,Electronics,Germany,1,12.85,12.85,Instagram
+DEC_16,2024-12-18,Headphones,Electronics,Italy,4,123.35,493.4,Instagram
+DEC_17,2024-12-11,Headphones,Electronics,Spain,1,194.21,194.21,TikTok
+DEC_18,2024-12-16,Headphones,Electronics,Germany,1,87.41,87.41,TikTok
+DEC_19,2024-12-12,Bag,Accessories,France,1,36.79,36.79,Email
+DEC_20,2024-12-16,Phone Case,Electronics,Portugal,1,13.99,13.99,Organic
+DEC_21,2024-12-13,Shoes,Fashion,Portugal,1,85.96,85.96,Instagram
+DEC_22,2024-12-27,Bag,Accessories,Spain,2,138.54,277.08,Google Ads
+DEC_23,2024-12-15,Bag,Accessories,Germany,1,103.37,103.37,Organic
+DEC_24,2024-12-26,T-Shirt,Fashion,Germany,1,10.4,10.4,Email
+DEC_25,2024-12-5,Shoes,Fashion,Portugal,1,81.59,81.59,Instagram
+DEC_26,2024-12-7,T-Shirt,Fashion,Portugal,1,38.68,38.68,TikTok
+DEC_27,2024-12-24,T-Shirt,Fashion,Germany,1,30.89,30.89,Email
+DEC_28,2024-12-22,Phone Case,Electronics,Portugal,1,22.98,22.98,Google Ads
+DEC_29,2024-12-26,Phone Case,Electronics,Portugal,1,14.06,14.06,Google Ads
+DEC_30,2024-12-17,Phone Case,Electronics,France,2,25.5,51.0,Organic
+DEC_31,2024-12-8,Phone Case,Electronics,Germany,1,12.13,12.13,Email
+DEC_32,2024-12-13,Watch,Accessories,Italy,1,277.57,277.57,TikTok
+DEC_33,2024-12-17,T-Shirt,Fashion,Portugal,1,26.54,26.54,TikTok
+DEC_34,2024-12-10,Shoes,Fashion,Portugal,2,77.98,155.96,Email
+DEC_35,2024-12-23,Watch,Accessories,Portugal,2,109.34,218.68,TikTok
+DEC_36,2024-12-24,Shoes,Fashion,Germany,5,73.88,369.4,TikTok
+DEC_37,2024-12-14,Headphones,Electronics,Germany,2,81.05,162.1,Email
+DEC_38,2024-12-18,Headphones,Electronics,Portugal,1,196.39,196.39,Email
+DEC_39,2024-12-22,T-Shirt,Fashion,Portugal,1,26.56,26.56,Organic
+DEC_40,2024-12-4,Watch,Accessories,Spain,3,186.41,559.23,Instagram
+DEC_41,2024-12-10,Watch,Accessories,Spain,5,253.37,1266.85,Organic
+DEC_42,2024-12-5,Watch,Accessories,France,2,133.12,266.24,Organic
+DEC_43,2024-12-15,Shoes,Fashion,Spain,1,82.72,82.72,Organic
+DEC_44,2024-12-8,Shoes,Fashion,Germany,2,52.82,105.64,Organic
+DEC_45,2024-12-20,T-Shirt,Fashion,France,1,11.72,11.72,Instagram
+DEC_46,2024-12-5,Watch,Accessories,Spain,1,149.83,149.83,Instagram
+DEC_47,2024-12-13,Watch,Accessories,Germany,1,134.61,134.61,Organic
+DEC_48,2024-12-26,Watch,Accessories,Germany,5,237.61,1188.05,Organic
+DEC_49,2024-12-22,Bag,Accessories,Spain,4,73.07,292.28,Instagram
+DEC_50,2024-12-6,Shoes,Fashion,Spain,1,50.51,50.51,Organic
+DEC_51,2024-12-16,Watch,Accessories,Germany,5,95.16,475.8,Organic
+DEC_52,2024-12-16,Headphones,Electronics,Portugal,1,96.07,96.07,Organic
+DEC_53,2024-12-10,Phone Case,Electronics,France,1,24.74,24.74,TikTok
+DEC_54,2024-12-20,Bag,Accessories,Germany,3,32.4,97.2,Email
+DEC_55,2024-12-5,Bag,Accessories,Spain,1,58.42,58.42,Instagram
+DEC_56,2024-12-24,Headphones,Electronics,Portugal,1,90.12,90.12,Email
+DEC_57,2024-12-4,T-Shirt,Fashion,Italy,2,34.24,68.48,TikTok
+DEC_58,2024-12-12,Bag,Accessories,Portugal,1,96.95,96.95,Email
+DEC_59,2024-12-15,T-Shirt,Fashion,Spain,1,37.99,37.99,TikTok
+DEC_60,2024-12-21,Watch,Accessories,Germany,5,293.73,1468.65,Google Ads
+DEC_61,2024-12-16,Phone Case,Electronics,Portugal,1,10.07,10.07,Instagram
+DEC_62,2024-12-6,T-Shirt,Fashion,Italy,4,32.97,131.88,Email
+DEC_63,2024-12-17,Headphones,Electronics,Italy,4,156.37,625.48,TikTok
+DEC_64,2024-12-1,Watch,Accessories,Portugal,1,216.68,216.68,Google Ads
+DEC_65,2024-12-23,T-Shirt,Fashion,France,3,15.77,47.31,TikTok
+DEC_66,2024-12-11,Phone Case,Electronics,France,1,20.58,20.58,Google Ads
+DEC_67,2024-12-1,Bag,Accessories,Italy,4,50.87,203.48,Organic
+DEC_68,2024-12-25,Shoes,Fashion,France,3,42.67,128.01,Organic
+DEC_69,2024-12-1,Phone Case,Electronics,Germany,5,11.38,56.9,Email
+DEC_70,2024-12-25,Watch,Accessories,Portugal,1,285.87,285.87,Google Ads
+DEC_71,2024-12-10,Watch,Accessories,Germany,2,251.4,502.8,TikTok
+DEC_72,2024-12-13,Watch,Accessories,Italy,1,131.51,131.51,Email
+DEC_73,2024-12-1,Headphones,Electronics,Portugal,1,60.78,60.78,Organic
+DEC_74,2024-12-5,T-Shirt,Fashion,Germany,1,20.5,20.5,Email
+DEC_75,2024-12-27,Phone Case,Electronics,Spain,2,24.52,49.04,TikTok
+DEC_76,2024-12-23,T-Shirt,Fashion,Germany,2,28.8,57.6,TikTok
+DEC_77,2024-12-17,Headphones,Electronics,Germany,1,153.71,153.71,Organic
+DEC_78,2024-12-24,Headphones,Electronics,France,2,115.88,231.76,Instagram
+DEC_79,2024-12-4,Headphones,Electronics,Germany,1,115.13,115.13,TikTok
+DEC_80,2024-12-21,T-Shirt,Fashion,Germany,2,20.57,41.14,Google Ads
+DEC_81,2024-12-21,Shoes,Fashion,France,1,110.38,110.38,Email
+DEC_82,2024-12-11,Headphones,Electronics,France,2,97.85,195.7,Organic
+DEC_83,2024-12-23,Shoes,Fashion,Spain,1,70.25,70.25,Email
+DEC_84,2024-12-13,Shoes,Fashion,Italy,4,70.24,280.96,TikTok
+DEC_85,2024-12-15,T-Shirt,Fashion,France,2,18.55,37.1,Email
+DEC_86,2024-12-12,T-Shirt,Fashion,France,3,31.45,94.35,Email
+DEC_87,2024-12-3,T-Shirt,Fashion,Italy,3,14.97,44.91,TikTok
+DEC_88,2024-12-14,Shoes,Fashion,Italy,2,80.39,160.78,Organic
+DEC_89,2024-12-11,Bag,Accessories,Germany,2,71.01,142.02,Organic
+DEC_90,2024-12-14,T-Shirt,Fashion,Spain,5,12.25,61.25,Email
+DEC_91,2024-12-25,Headphones,Electronics,Italy,4,179.59,718.36,TikTok
+DEC_92,2024-12-17,Headphones,Electronics,Italy,3,75.05,225.15,Organic
+DEC_93,2024-12-1,T-Shirt,Fashion,France,2,33.0,66.0,Email
+DEC_94,2024-12-12,Shoes,Fashion,Germany,2,109.93,219.86,Instagram
+DEC_95,2024-12-1,Headphones,Electronics,France,1,191.32,191.32,Organic
+DEC_96,2024-12-10,Watch,Accessories,Italy,4,80.97,323.88,Organic
+DEC_97,2024-12-3,Shoes,Fashion,France,3,47.17,141.51,Email
+DEC_98,2024-12-10,Watch,Accessories,France,2,294.02,588.04,TikTok
+DEC_99,2024-12-23,Phone Case,Electronics,Spain,4,12.76,51.04,TikTok
+DEC_100,2024-12-8,Watch,Accessories,Portugal,1,190.33,190.33,Instagram
+DEC_101,2024-12-9,Phone Case,Electronics,Italy,2,16.13,32.26,TikTok
+DEC_102,2024-12-14,T-Shirt,Fashion,Germany,2,18.91,37.82,Email
+DEC_103,2024-12-13,Shoes,Fashion,Portugal,1,80.25,80.25,Email
+DEC_104,2024-12-8,Headphones,Electronics,Germany,1,124.48,124.48,Google Ads
+DEC_105,2024-12-26,T-Shirt,Fashion,Portugal,1,19.58,19.58,TikTok
+DEC_106,2024-12-24,Shoes,Fashion,Spain,1,110.52,110.52,TikTok
+DEC_107,2024-12-27,Headphones,Electronics,Germany,1,87.53,87.53,Email
+DEC_108,2024-12-19,Watch,Accessories,France,1,253.3,253.3,Organic
+DEC_109,2024-12-26,T-Shirt,Fashion,Spain,1,32.98,32.98,Instagram
+DEC_110,2024-12-23,Watch,Accessories,France,3,153.28,459.84,Google Ads
+DEC_111,2024-12-26,T-Shirt,Fashion,Portugal,1,32.78,32.78,Organic
+DEC_112,2024-12-2,Bag,Accessories,Italy,1,40.46,40.46,Instagram
+DEC_113,2024-12-24,Watch,Accessories,Germany,1,276.04,276.04,Organic
+DEC_114,2024-12-14,Phone Case,Electronics,Portugal,3,28.48,85.44,Organic
+DEC_115,2024-12-24,T-Shirt,Fashion,Italy,1,36.4,36.4,Google Ads
+DEC_116,2024-12-23,Bag,Accessories,Italy,2,125.96,251.92,TikTok
+DEC_117,2024-12-27,Headphones,Electronics,Germany,3,68.6,205.8,Instagram
+DEC_118,2024-12-4,T-Shirt,Fashion,Spain,5,36.79,183.95,Instagram
+DEC_119,2024-12-24,T-Shirt,Fashion,Spain,4,26.15,104.6,TikTok
+DEC_120,2024-12-10,Phone Case,Electronics,Spain,2,25.25,50.5,Google Ads
+DEC_121,2024-12-9,Watch,Accessories,Germany,1,131.71,131.71,TikTok
+DEC_122,2024-12-5,Watch,Accessories,France,1,229.12,229.12,TikTok
+DEC_123,2024-12-11,Bag,Accessories,Germany,1,84.35,84.35,TikTok
+DEC_124,2024-12-1,Bag,Accessories,France,1,58.66,58.66,Instagram
+DEC_125,2024-12-18,Headphones,Electronics,Spain,1,149.5,149.5,Google Ads
+DEC_126,2024-12-12,Bag,Accessories,Portugal,1,145.23,145.23,Instagram
+DEC_127,2024-12-24,Shoes,Fashion,Germany,6,89.2,535.2,Email
+DEC_128,2024-12-2,Phone Case,Electronics,France,2,17.03,34.06,TikTok
+DEC_129,2024-12-17,Phone Case,Electronics,France,2,29.91,59.82,Organic
+DEC_130,2024-12-18,T-Shirt,Fashion,Italy,2,19.56,39.12,TikTok
+DEC_131,2024-12-23,Shoes,Fashion,France,1,88.29,88.29,Instagram
+DEC_132,2024-12-1,Headphones,Electronics,Spain,4,149.86,599.44,Organic
+DEC_133,2024-12-25,Phone Case,Electronics,Portugal,2,22.04,44.08,Instagram
+DEC_134,2024-12-9,Watch,Accessories,France,4,208.23,832.92,Email
+DEC_135,2024-12-9,Watch,Accessories,France,3,203.18,609.54,Organic
+DEC_136,2024-12-14,Bag,Accessories,Germany,2,33.25,66.5,Google Ads
+DEC_137,2024-12-14,Bag,Accessories,Germany,6,71.85,431.1,Instagram
+DEC_138,2024-12-15,Watch,Accessories,Germany,9,173.96,1565.64,Organic
+DEC_139,2024-12-26,Watch,Accessories,Italy,7,180.34,1262.38,Google Ads
+DEC_140,2024-12-5,Phone Case,Electronics,Italy,3,25.38,76.14,Google Ads
+DEC_141,2024-12-16,Phone Case,Electronics,Spain,2,18.12,36.24,Organic
+DEC_142,2024-12-7,Shoes,Fashion,Portugal,1,66.93,66.93,Instagram
+DEC_143,2024-12-7,Bag,Accessories,Italy,3,79.29,237.87,Email
+DEC_144,2024-12-1,Bag,Accessories,France,1,137.78,137.78,Google Ads
+DEC_145,2024-12-17,Watch,Accessories,Portugal,1,225.49,225.49,Google Ads
+DEC_146,2024-12-14,Shoes,Fashion,France,2,73.44,146.88,Email
+DEC_147,2024-12-1,Bag,Accessories,Germany,6,58.95,353.7,Instagram
+DEC_148,2024-12-22,Shoes,Fashion,France,2,103.74,207.48,Organic
+DEC_149,2024-12-7,Headphones,Electronics,Portugal,1,96.45,96.45,TikTok
+DEC_150,2024-12-9,T-Shirt,Fashion,Portugal,2,22.97,45.94,Organic
+DEC_151,2024-12-23,Watch,Accessories,Portugal,1,189.51,189.51,Google Ads
+DEC_152,2024-12-19,T-Shirt,Fashion,Spain,2,32.81,65.62,TikTok
+DEC_153,2024-12-13,T-Shirt,Fashion,Italy,1,20.31,20.31,Email
+DEC_154,2024-12-9,Shoes,Fashion,Spain,2,91.97,183.94,Email
+DEC_155,2024-12-2,Watch,Accessories,Portugal,1,213.17,213.17,Instagram
+DEC_156,2024-12-9,Headphones,Electronics,Italy,3,64.04,192.12,Google Ads
+DEC_157,2024-12-24,T-Shirt,Fashion,Germany,2,35.41,70.82,Google Ads
+DEC_158,2024-12-16,Shoes,Fashion,France,3,50.43,151.29,Instagram
+DEC_159,2024-12-21,Headphones,Electronics,Germany,1,66.0,66.0,Google Ads
+DEC_160,2024-12-10,Watch,Accessories,Spain,1,124.33,124.33,Organic
+DEC_161,2024-12-17,Phone Case,Electronics,Portugal,3,11.26,33.78,Google Ads
+DEC_162,2024-12-10,Headphones,Electronics,Italy,1,146.27,146.27,TikTok
+DEC_163,2024-12-3,Bag,Accessories,Portugal,2,66.43,132.86,Google Ads
+DEC_164,2024-12-22,Shoes,Fashion,Italy,1,93.74,93.74,Instagram
+DEC_165,2024-12-5,Phone Case,Electronics,Portugal,1,15.93,15.93,Email
+DEC_166,2024-12-16,Headphones,Electronics,Portugal,2,64.9,129.8,Google Ads
+DEC_167,2024-12-24,Bag,Accessories,Germany,2,55.31,110.62,Instagram
+DEC_168,2024-12-17,T-Shirt,Fashion,Spain,1,12.37,12.37,Email
+DEC_169,2024-12-5,Shoes,Fashion,Spain,3,116.95,350.85,Instagram
+DEC_170,2024-12-25,Headphones,Electronics,Italy,2,117.65,235.3,Organic
+DEC_171,2024-12-26,Bag,Accessories,France,4,61.41,245.64,Email
+DEC_172,2024-12-22,T-Shirt,Fashion,Italy,1,33.9,33.9,Instagram
+DEC_173,2024-12-12,Bag,Accessories,Germany,1,112.46,112.46,TikTok
+DEC_174,2024-12-9,Bag,Accessories,Italy,1,90.94,90.94,TikTok
+DEC_175,2024-12-18,Bag,Accessories,Spain,1,102.04,102.04,TikTok
+DEC_176,2024-12-19,Watch,Accessories,Italy,1,91.1,91.1,Instagram
+DEC_177,2024-12-11,T-Shirt,Fashion,Italy,2,32.89,65.78,TikTok
+DEC_178,2024-12-23,Watch,Accessories,Spain,1,226.75,226.75,Email
+DEC_179,2024-12-13,T-Shirt,Fashion,Portugal,1,29.59,29.59,Instagram
+DEC_180,2024-12-20,Shoes,Fashion,Italy,2,72.96,145.92,Email
+DEC_181,2024-12-19,Phone Case,Electronics,France,4,14.51,58.04,Organic
+DEC_182,2024-12-8,Phone Case,Electronics,Spain,1,14.13,14.13,Organic
+DEC_183,2024-12-20,T-Shirt,Fashion,France,2,15.79,31.58,Email
+DEC_184,2024-12-4,Watch,Accessories,Germany,3,81.26,243.78,Instagram
+DEC_185,2024-12-24,Watch,Accessories,Spain,3,124.17,372.51,Google Ads
+DEC_186,2024-12-19,Phone Case,Electronics,France,1,11.64,11.64,Email
+DEC_187,2024-12-27,Phone Case,Electronics,France,2,13.49,26.98,Email
+DEC_188,2024-12-7,T-Shirt,Fashion,Portugal,2,17.41,34.82,Instagram
+DEC_189,2024-12-24,T-Shirt,Fashion,Germany,3,12.54,37.62,Email
+DEC_190,2024-12-5,T-Shirt,Fashion,France,1,30.55,30.55,TikTok
+DEC_191,2024-12-14,Watch,Accessories,Italy,1,165.01,165.01,Email
+DEC_192,2024-12-18,Shoes,Fashion,Italy,2,49.24,98.48,Instagram
+DEC_193,2024-12-23,T-Shirt,Fashion,Germany,2,29.24,58.48,Organic
+DEC_194,2024-12-6,Shoes,Fashion,Germany,1,79.64,79.64,Organic
+DEC_195,2024-12-26,T-Shirt,Fashion,Germany,2,23.24,46.48,TikTok
+DEC_196,2024-12-9,Headphones,Electronics,Spain,3,77.16,231.48,Email
+DEC_197,2024-12-13,T-Shirt,Fashion,Portugal,1,38.9,38.9,TikTok
+DEC_198,2024-12-16,T-Shirt,Fashion,Spain,1,15.5,15.5,Email
+DEC_199,2024-12-8,Phone Case,Electronics,Portugal,1,27.47,27.47,Instagram
+DEC_200,2024-12-3,Headphones,Electronics,Germany,5,76.71,383.55,Organic
+DEC_201,2024-12-19,T-Shirt,Fashion,Portugal,4,25.13,100.52,Email
+DEC_202,2024-12-23,Headphones,Electronics,France,3,179.04,537.12,Email
+DEC_203,2024-12-4,Headphones,Electronics,Portugal,1,160.48,160.48,Organic
+DEC_204,2024-12-8,Bag,Accessories,Portugal,4,108.28,433.12,Google Ads
+DEC_205,2024-12-25,Watch,Accessories,Italy,1,284.95,284.95,TikTok
+DEC_206,2024-12-10,Headphones,Electronics,Portugal,1,191.13,191.13,Organic
+DEC_207,2024-12-1,Watch,Accessories,Portugal,1,134.83,134.83,TikTok
+DEC_208,2024-12-14,Watch,Accessories,Portugal,1,152.13,152.13,Organic
+DEC_209,2024-12-24,Watch,Accessories,France,5,230.97,1154.85,TikTok
+DEC_210,2024-12-24,Headphones,Electronics,Portugal,1,131.62,131.62,Google Ads
+DEC_211,2024-12-17,Bag,Accessories,Italy,3,33.35,100.05,Email
+DEC_212,2024-12-13,Phone Case,Electronics,France,1,24.76,24.76,Google Ads
+DEC_213,2024-12-18,T-Shirt,Fashion,Italy,4,21.11,84.44,Google Ads
+DEC_214,2024-12-9,Watch,Accessories,Germany,5,85.67,428.35,TikTok
+DEC_215,2024-12-24,Phone Case,Electronics,Portugal,1,25.7,25.7,TikTok
+DEC_216,2024-12-20,Watch,Accessories,Spain,3,257.81,773.43,Organic
+DEC_217,2024-12-23,T-Shirt,Fashion,Italy,1,24.51,24.51,Google Ads
+DEC_218,2024-12-3,Phone Case,Electronics,Portugal,1,20.75,20.75,Instagram
+DEC_219,2024-12-1,T-Shirt,Fashion,Spain,2,19.04,38.08,TikTok
+DEC_220,2024-12-18,Bag,Accessories,Spain,1,68.37,68.37,Instagram
+DEC_221,2024-12-21,T-Shirt,Fashion,Portugal,1,33.93,33.93,Google Ads
+DEC_222,2024-12-16,T-Shirt,Fashion,Spain,2,25.33,50.66,TikTok
+DEC_223,2024-12-6,Shoes,Fashion,Spain,1,78.28,78.28,Instagram
+DEC_224,2024-12-25,Bag,Accessories,Spain,5,53.42,267.1,Organic
+DEC_225,2024-12-26,Watch,Accessories,France,3,159.09,477.27,Instagram
+DEC_226,2024-12-14,Shoes,Fashion,Spain,4,71.72,286.88,TikTok
+DEC_227,2024-12-14,Shoes,Fashion,Spain,1,85.11,85.11,Instagram
+DEC_228,2024-12-1,Headphones,Electronics,Portugal,1,111.0,111.0,Email
+DEC_229,2024-12-4,Bag,Accessories,Italy,1,45.58,45.58,Google Ads
+DEC_230,2024-12-24,Phone Case,Electronics,Germany,1,22.68,22.68,TikTok
+DEC_231,2024-12-21,T-Shirt,Fashion,Germany,2,30.1,60.2,Instagram
+DEC_232,2024-12-14,Headphones,Electronics,Italy,4,84.72,338.88,TikTok
+DEC_233,2024-12-4,T-Shirt,Fashion,France,1,25.82,25.82,Instagram
+DEC_234,2024-12-5,Watch,Accessories,France,1,136.37,136.37,Instagram
+DEC_235,2024-12-5,Phone Case,Electronics,Italy,2,23.17,46.34,Organic
+DEC_236,2024-12-6,Watch,Accessories,France,1,284.83,284.83,Email
+DEC_237,2024-12-7,Headphones,Electronics,Spain,4,198.11,792.44,Instagram
+DEC_238,2024-12-3,T-Shirt,Fashion,Germany,2,16.51,33.02,Email
+DEC_239,2024-12-10,Headphones,Electronics,Germany,1,177.15,177.15,Instagram
+DEC_240,2024-12-13,Phone Case,Electronics,Italy,2,18.52,37.04,Email
+DEC_241,2024-12-16,Watch,Accessories,France,2,185.5,371.0,Organic
+DEC_242,2024-12-15,T-Shirt,Fashion,Portugal,1,19.59,19.59,Instagram
+DEC_243,2024-12-12,T-Shirt,Fashion,Spain,4,36.12,144.48,Google Ads
+DEC_244,2024-12-2,Headphones,Electronics,Portugal,1,176.86,176.86,Email
+DEC_245,2024-12-5,T-Shirt,Fashion,France,1,11.42,11.42,TikTok
+DEC_246,2024-12-18,Shoes,Fashion,Portugal,2,119.84,239.68,TikTok
+DEC_247,2024-12-27,Headphones,Electronics,France,1,170.57,170.57,Instagram
+DEC_248,2024-12-12,Watch,Accessories,Italy,1,100.57,100.57,Organic
+DEC_249,2024-12-10,Bag,Accessories,Portugal,1,37.77,37.77,Organic
+DEC_250,2024-12-19,Bag,Accessories,Portugal,1,35.36,35.36,Organic
+DEC_251,2024-12-10,T-Shirt,Fashion,France,1,25.04,25.04,Organic
+DEC_252,2024-12-8,Phone Case,Electronics,Italy,1,28.09,28.09,Google Ads
+DEC_253,2024-12-14,Watch,Accessories,Spain,1,194.1,194.1,Email
+DEC_254,2024-12-3,Bag,Accessories,Italy,3,120.25,360.75,Google Ads
+DEC_255,2024-12-26,Headphones,Electronics,Spain,1,101.53,101.53,TikTok
+DEC_256,2024-12-2,Phone Case,Electronics,France,3,12.92,38.76,Email
+DEC_257,2024-12-8,Shoes,Fashion,Portugal,3,99.48,298.44,Instagram
+DEC_258,2024-12-17,Bag,Accessories,France,2,34.55,69.1,Instagram
+DEC_259,2024-12-24,Bag,Accessories,Germany,1,82.89,82.89,Organic
+DEC_260,2024-12-6,Bag,Accessories,Italy,2,136.29,272.58,Google Ads
+DEC_261,2024-12-25,Headphones,Electronics,Italy,1,99.53,99.53,Email
+DEC_262,2024-12-22,Phone Case,Electronics,Spain,1,18.03,18.03,Instagram
+DEC_263,2024-12-26,Bag,Accessories,Germany,2,130.67,261.34,Instagram
+DEC_264,2024-12-20,Watch,Accessories,France,4,269.0,1076.0,TikTok
+DEC_265,2024-12-19,Headphones,Electronics,France,1,55.39,55.39,TikTok
+DEC_266,2024-12-25,Headphones,Electronics,Italy,3,130.4,391.2,Instagram
+DEC_267,2024-12-15,Shoes,Fashion,France,3,77.45,232.35,Google Ads
+DEC_268,2024-12-23,Watch,Accessories,France,1,86.2,86.2,Email
+DEC_269,2024-12-11,Headphones,Electronics,France,2,115.58,231.16,Organic
+DEC_270,2024-12-22,Bag,Accessories,Spain,3,71.87,215.61,Google Ads
+DEC_271,2024-12-27,Phone Case,Electronics,Spain,1,11.52,11.52,Instagram
+DEC_272,2024-12-16,Shoes,Fashion,Spain,2,92.41,184.82,TikTok
+DEC_273,2024-12-22,Shoes,Fashion,Germany,5,88.24,441.2,Google Ads
+DEC_274,2024-12-21,Bag,Accessories,France,1,79.96,79.96,Organic
+DEC_275,2024-12-26,Bag,Accessories,Spain,5,64.84,324.2,Instagram
+DEC_276,2024-12-25,Bag,Accessories,Italy,3,109.9,329.7,Email
+DEC_277,2024-12-25,Watch,Accessories,France,1,235.05,235.05,Google Ads
+DEC_278,2024-12-2,Shoes,Fashion,Germany,2,85.52,171.04,Instagram
+DEC_279,2024-12-18,Headphones,Electronics,Spain,7,104.09,728.63,TikTok
+DEC_280,2024-12-10,Phone Case,Electronics,Italy,2,14.27,28.54,Organic
+DEC_281,2024-12-23,Watch,Accessories,Germany,5,195.46,977.3,Instagram
+DEC_282,2024-12-19,Headphones,Electronics,Spain,5,121.35,606.75,Organic
+DEC_283,2024-12-16,Headphones,Electronics,France,2,120.78,241.56,Email
+DEC_284,2024-12-27,T-Shirt,Fashion,Germany,6,23.57,141.42,Google Ads
+DEC_285,2024-12-3,Phone Case,Electronics,Spain,4,18.85,75.4,Google Ads
+DEC_286,2024-12-20,Watch,Accessories,Germany,2,132.37,264.74,Organic
+DEC_287,2024-12-7,T-Shirt,Fashion,Italy,2,38.33,76.66,Google Ads
+DEC_288,2024-12-21,Bag,Accessories,Italy,1,114.99,114.99,Google Ads
+DEC_289,2024-12-4,Shoes,Fashion,Germany,1,55.3,55.3,Email
+DEC_290,2024-12-16,Headphones,Electronics,Portugal,1,193.12,193.12,Google Ads
+DEC_291,2024-12-9,Shoes,Fashion,Germany,3,81.18,243.54,Email
+DEC_292,2024-12-10,Shoes,Fashion,Spain,2,119.41,238.82,Email
+DEC_293,2024-12-27,Bag,Accessories,Portugal,1,116.26,116.26,Instagram
+DEC_294,2024-12-7,Shoes,Fashion,Germany,3,98.15,294.45,Organic
+DEC_295,2024-12-8,Bag,Accessories,France,4,71.67,286.68,Email
+DEC_296,2024-12-26,Phone Case,Electronics,Portugal,1,14.49,14.49,Email
+DEC_297,2024-12-21,Headphones,Electronics,Portugal,1,58.53,58.53,Instagram
+DEC_298,2024-12-1,Phone Case,Electronics,Portugal,2,27.25,54.5,Email
+DEC_299,2024-12-1,Shoes,Fashion,Italy,2,61.04,122.08,Google Ads
+DEC_300,2024-12-23,Phone Case,Electronics,Germany,1,23.97,23.97,Organic
+DEC_301,2024-12-15,Watch,Accessories,Germany,2,150.79,301.58,Instagram
+DEC_302,2024-12-10,Shoes,Fashion,Spain,3,69.52,208.56,Email
+DEC_303,2024-12-24,Shoes,Fashion,Germany,1,73.4,73.4,TikTok
+DEC_304,2024-12-10,Phone Case,Electronics,Germany,3,12.48,37.44,Instagram
+DEC_305,2024-12-7,Shoes,Fashion,Portugal,3,101.5,304.5,Email
+DEC_306,2024-12-4,Watch,Accessories,France,1,293.69,293.69,Instagram
+DEC_307,2024-12-13,Headphones,Electronics,Italy,1,124.31,124.31,Instagram
+DEC_308,2024-12-8,Bag,Accessories,Germany,1,118.28,118.28,Email
+DEC_309,2024-12-14,Watch,Accessories,Italy,2,195.36,390.72,Google Ads
+DEC_310,2024-12-14,Headphones,Electronics,Italy,1,108.9,108.9,Email
+DEC_311,2024-12-4,Headphones,Electronics,Germany,2,180.02,360.04,Organic
+DEC_312,2024-12-5,Watch,Accessories,Portugal,1,113.02,113.02,Google Ads
+DEC_313,2024-12-8,Phone Case,Electronics,Spain,1,16.62,16.62,Organic
+DEC_314,2024-12-20,Phone Case,Electronics,Portugal,1,24.75,24.75,TikTok
+DEC_315,2024-12-9,Watch,Accessories,Germany,6,187.63,1125.78,Organic
+DEC_316,2024-12-15,Shoes,Fashion,Portugal,3,94.6,283.8,TikTok
+DEC_317,2024-12-2,Bag,Accessories,Italy,1,140.2,140.2,Organic
+DEC_318,2024-12-11,T-Shirt,Fashion,France,1,16.0,16.0,TikTok
+DEC_319,2024-12-4,T-Shirt,Fashion,Portugal,4,39.02,156.08,Google Ads
+DEC_320,2024-12-12,Watch,Accessories,Italy,2,115.92,231.84,Organic
+DEC_321,2024-12-7,Shoes,Fashion,Germany,1,87.17,87.17,Organic
+DEC_322,2024-12-3,Shoes,Fashion,France,3,80.06,240.18,Email
+DEC_323,2024-12-16,Bag,Accessories,Spain,2,106.57,213.14,Email
+DEC_324,2024-12-22,T-Shirt,Fashion,Germany,2,33.98,67.96,TikTok
+DEC_325,2024-12-17,T-Shirt,Fashion,Portugal,2,26.39,52.78,Organic
+DEC_326,2024-12-7,Watch,Accessories,Spain,2,93.32,186.64,Organic
+DEC_327,2024-12-22,Watch,Accessories,Portugal,1,214.88,214.88,Organic
+DEC_328,2024-12-19,Watch,Accessories,Germany,2,113.5,227.0,Email
+DEC_329,2024-12-27,Bag,Accessories,Portugal,1,74.12,74.12,Organic
+DEC_330,2024-12-16,Watch,Accessories,France,2,114.47,228.94,Email
+DEC_331,2024-12-18,Shoes,Fashion,Portugal,2,93.98,187.96,Organic
+DEC_332,2024-12-18,Watch,Accessories,France,4,98.7,394.8,Organic
+DEC_333,2024-12-23,Shoes,Fashion,Italy,2,89.01,178.02,Organic
+DEC_334,2024-12-27,Phone Case,Electronics,Germany,5,12.94,64.7,Organic
+DEC_335,2024-12-19,Phone Case,Electronics,Italy,1,16.2,16.2,Organic
+DEC_336,2024-12-14,Bag,Accessories,Germany,10,68.14,681.4,Email
+DEC_337,2024-12-2,Bag,Accessories,Spain,1,31.18,31.18,Instagram
+DEC_338,2024-12-24,Watch,Accessories,Germany,1,260.18,260.18,TikTok
+DEC_339,2024-12-5,T-Shirt,Fashion,Italy,2,28.97,57.94,Google Ads
+DEC_340,2024-12-24,Bag,Accessories,Germany,5,103.59,517.95,TikTok
+DEC_341,2024-12-24,T-Shirt,Fashion,Germany,1,16.76,16.76,TikTok
+DEC_342,2024-12-11,Headphones,Electronics,Portugal,1,169.78,169.78,Instagram
+DEC_343,2024-12-22,T-Shirt,Fashion,Germany,1,37.56,37.56,Email
+DEC_344,2024-12-20,Bag,Accessories,Italy,1,92.86,92.86,Email
+DEC_345,2024-12-12,Bag,Accessories,France,3,111.46,334.38,Email
+DEC_346,2024-12-23,Phone Case,Electronics,Germany,1,11.96,11.96,Email
+DEC_347,2024-12-24,Watch,Accessories,Spain,1,176.52,176.52,Instagram
+DEC_348,2024-12-10,Phone Case,Electronics,Italy,1,15.08,15.08,TikTok
+DEC_349,2024-12-10,Shoes,Fashion,France,3,76.33,228.99,Google Ads
+DEC_350,2024-12-6,Shoes,Fashion,Portugal,1,114.52,114.52,TikTok
+DEC_351,2024-12-5,Phone Case,Electronics,Italy,2,13.76,27.52,Instagram
+DEC_352,2024-12-10,Headphones,Electronics,Spain,2,188.58,377.16,Email
+DEC_353,2024-12-2,T-Shirt,Fashion,Germany,5,18.04,90.2,Instagram
+DEC_354,2024-12-8,Shoes,Fashion,Spain,1,72.23,72.23,TikTok
+DEC_355,2024-12-6,Phone Case,Electronics,Germany,1,25.08,25.08,TikTok
+DEC_356,2024-12-3,Phone Case,Electronics,Spain,4,19.89,79.56,Organic
+DEC_357,2024-12-7,Shoes,Fashion,Portugal,2,105.37,210.74,Organic
+DEC_358,2024-12-8,Headphones,Electronics,Italy,3,177.91,533.73,Email
+DEC_359,2024-12-3,Headphones,Electronics,France,3,191.94,575.82,TikTok
+DEC_360,2024-12-11,Bag,Accessories,Spain,2,134.55,269.1,TikTok
